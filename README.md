@@ -23,6 +23,13 @@
 
 图集按 NASA 发布日期倒序排列。点击缩略图可打开大图，点击标题可看 NASA 的原文说明与署名。视频期会链接到原文，有封面时也会显示预览。图片尺寸来自实际文件，长边达到 3840 像素且短边达到 2160 像素时会标出 4K。
 
+## 空间天气日报 · 最近 7 天
+
+<!-- space-weather:start -->
+<!-- space-weather:end -->
+
+[空间天气 Action](https://github.com/LittleCabbage-00/NASAPic/actions/workflows/space-weather.yml) 每天北京时间 **12:47** 更新。日期按 UTC 计算，最高 Kp 取当天 8 个三小时时段的最大值。太阳耀斑按 X 射线峰值时间归入对应日期，同一事件有多份报告时采用最高级别。[查看历史数据](data/space-weather.json) · [NOAA Kp 指数](https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json) · [NOAA 事件报告](https://services.swpc.noaa.gov/json/edited_events.json)
+
 ## 本地下载
 
 需要 Python 3.10 或更新版本。运行以下命令会回查最近 5 期，把图片保存到 `downloads/`，已有的图片会跳过。
