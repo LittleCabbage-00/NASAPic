@@ -26,6 +26,17 @@
 ## 空间天气日报 · 最近 7 天
 
 <!-- space-weather:start -->
+
+| 日期（UTC） | 最高 Kp | X 射线耀斑 | 最强耀斑 |
+| --- | ---: | ---: | ---: |
+| 2026-11-14 | 1.67 | 6 | C4.4 |
+| 2026-11-13 | 1.33 | 6 | C5.5 |
+| 2026-11-12 | 1.67 | 19 | C7.1 |
+| 2026-11-11 | 2.67 | 11 | M1.8 |
+| 2026-11-10 | 3.00 | 17 | C9.4 |
+| 2026-11-09 | 3.33 | 19 | C5.7 |
+| 2026-11-08 | 5.00 | 31 | M1.8 |
+
 <!-- space-weather:end -->
 
 [空间天气 Action](https://github.com/LittleCabbage-00/NASAPic/actions/workflows/space-weather.yml) 每天北京时间 **12:47** 更新。日期按 UTC 计算，最高 Kp 取当天 8 个三小时时段的最大值。太阳耀斑按 X 射线峰值时间归入对应日期，同一事件有多份报告时采用最高级别。[查看历史数据](data/space-weather.json) · [NOAA Kp 指数](https://services.swpc.noaa.gov/products/noaa-planetary-k-index.json) · [NOAA 事件报告](https://services.swpc.noaa.gov/json/edited_events.json)
